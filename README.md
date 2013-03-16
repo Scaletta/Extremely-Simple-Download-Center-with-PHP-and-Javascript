@@ -21,7 +21,7 @@ To set up this simple download centre, follow these instructions to make it work
 
 2. Log in to your phpMyAdmin or mysql and create a database called download
     ````sql
-    CREATE DATABASE download;
+    CREATE DATABASE downloads;
     ````
 
 3. Now let's create the table where the file name and the counter are stored

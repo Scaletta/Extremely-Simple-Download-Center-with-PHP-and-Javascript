@@ -1,4 +1,4 @@
-CREATE DATABASE download;
+CREATE DATABASE downloads;
 
 CREATE TABLE files (
 	file varchar(200) NOT NULL UNIQUE,
