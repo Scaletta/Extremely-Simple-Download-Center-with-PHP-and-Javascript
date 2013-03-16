@@ -35,3 +35,31 @@ To set up this simple download centre, follow these instructions to make it work
 4. Now that the database is set up, change your host,username and password in *DownloadCenter.php* in the mysqli object
 
 5. Now it's time to open your file that resembles the Download center (e.g. the *index.php* in the directory *download/*)
+
+6. Create a paragraph where the remaining seconds will be displayed and also a link to a file
+    ````html
+    <p id="timer" style="font-size:3.5em">3</p>
+    ````
+
+7. After that add this script that works as a timer
+    ````javascript
+	<script type="text/javascript">
+	var count=3;
+
+	var counter=setInterval(timer, 1000); //1000 will run it every 1 second
+
+	function timer()
+	{
+		count--;
+		if (count <= 0)
+		{
+			clearInterval(counter);
+			//counter ended, show a button with a link to the file
+			document.getElementById("timer").innerHTML = '<a href="<?php echo $dlocation;?>">download</a> :)<br>';
+			return;
+		}
+		document.getElementById("timer").innerHTML = count;
+
+	}
+	</script>
+   ````
