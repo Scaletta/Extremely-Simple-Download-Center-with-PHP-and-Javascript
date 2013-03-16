@@ -20,5 +20,5 @@ To set up this simple download centre, follow these instructions to make it work
 Create a directory where you store all your files that are available for download (e.g. 'downloadfiles')
 -
 #2)
-d
+d2
 -
