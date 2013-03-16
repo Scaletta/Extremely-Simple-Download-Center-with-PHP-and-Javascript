@@ -22,5 +22,5 @@ Create a directory where you store all your files that are available for downloa
 -
 #2)
 
-d2
+d22
 -
