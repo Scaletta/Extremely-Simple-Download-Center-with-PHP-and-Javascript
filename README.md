@@ -13,7 +13,7 @@ An example can be found here: [Download center](http://christian-fei.com/lab/dow
 
 #WORDPRESS INTEGRATION#
 If you want to add a download centre to your wordpress blog, follow this step by step tutorial
-[Create a simple and neat download page for wordpress](christian-fei.com/tutorials/create-a-simple-neat-download-page-for-wordpress-javascript/)
+[Create a simple and neat download page for wordpress](http://christian-fei.com/tutorials/create-a-simple-neat-download-page-for-wordpress-javascript/)
 
 #FEATURES#
 - keep track of how many times a file has been downloaded
