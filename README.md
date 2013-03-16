@@ -74,7 +74,7 @@ To set up this simple download centre, follow these instructions to make it work
 	</script>
 	````
 
-9. At this point we need to contact the database and add an entry and/or increment it
+9. At this point we need to contact the database to increment an entry (to add it to the table if needed too)
     ````php
     require_once('DownloadCenter.php');
 	//create a new object, pass the name of file the user wants to download
