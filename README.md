@@ -24,4 +24,10 @@ To set up this simple download centre, follow these instructions to make it work
     CREATE DATABASE download;
     ````
 
-3. 
+3. Now let's create the table where the file name and the counter are stored
+    ````sql
+    CREATE TABLE files (
+		file varchar(200) NOT NULL UNIQUE,
+  		downloads int(11) NOT NULL default '0'
+	) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+    ````
