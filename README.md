@@ -42,6 +42,9 @@ To set up this simple download centre, follow these instructions to make it work
     ````
 
 7. After that add this script that works as a timer
+	````html
+	<script type="text/javascript">
+	````
     ````javascript
 	var count=3;
 
@@ -61,3 +64,6 @@ To set up this simple download centre, follow these instructions to make it work
 
 	}
     ````
+    ````html
+	</script>
+	````
