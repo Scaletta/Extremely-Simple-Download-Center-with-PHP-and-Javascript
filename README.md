@@ -36,12 +36,18 @@ To set up this simple download centre, follow these instructions to make it work
 
 5. Now it's time to open your file that resembles the Download center (e.g. the *index.php* in the directory *download/*)
 
-6. Create a paragraph where the remaining seconds will be displayed and also a link to a file
+6. Get the file the user wants to download and also the actual location of the file
+	````php
+	$file = $_GET['f'];
+	$dlocation = 'http://your-site.com/downloadfiles/'.$file;
+	````
+
+7. Create a paragraph where the remaining seconds will be displayed and also a link to a file
     ````html
     <p id="timer" style="font-size:3.5em">3</p>
     ````
 
-7. After that add this script that works as a timer
+8. After that add this script that works as a timer
 	````html
 	<script type="text/javascript">
 	````
@@ -67,3 +73,16 @@ To set up this simple download centre, follow these instructions to make it work
     ````html
 	</script>
 	````
+
+9. At this point we need to contact the database and add an entry and/or increment it
+    ````php
+    require_once('DownloadCenter.php');
+	//create a new object, pass the name of file the user wants to download
+	$dc = new DownloadCenter($file);
+	if(!$dc->exists()) {
+		$dc->add();
+	$dc->increment();
+	}
+	//display how many times this files has been downloaded so far
+	echo '<b>downloaded '.$dc->getCount().' times</b>';
+    ````
