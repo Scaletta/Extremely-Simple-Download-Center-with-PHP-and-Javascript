@@ -9,7 +9,11 @@ You can also let the user wait some seconds and display an ad, to make both mone
 Plus it's just cool to have an own download centre, right?!
 
 #EXAMPLE#
-An example can be found here [Download center](http://christian-fei.com/lab/download-center/)
+An example can be found here: [Download center](http://christian-fei.com/lab/download-center/)
+
+#WORDPRESS INTEGRATION#
+If you want to add a download centre to your wordpress blog, follow this step by step tutorial
+[Create a simple and neat download page for wordpress](christian-fei.com/tutorials/create-a-simple-neat-download-page-for-wordpress-javascript/)
 
 #FEATURES#
 - keep track of how many times a file has been downloaded
