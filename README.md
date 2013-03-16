@@ -9,7 +9,7 @@ You can also let the user wait some seconds and display an ad, to make both mone
 Plus it's just cool to have an own download centre, right?!
 
 #EXAMPLE#
-An example can be found here [http://christian-fei.com/lab/download-center/](Download center)
+An example can be found here [Download center](http://christian-fei.com/lab/download-center/)
 
 #FEATURES#
 - keep track of how many times a file has been downloaded
