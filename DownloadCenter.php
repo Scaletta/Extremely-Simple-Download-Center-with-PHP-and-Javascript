@@ -17,7 +17,7 @@
 			$ret = false;
 			$count = 0;
 			if(isset($this->file)) {
-				$mysqli = @new mysqli("localhost","root","root","downloads");
+				$mysqli = @new mysqli("localhost","christi3_cfdown","cfdown","christi3_cf-downloads");
 				if(mysqli_connect_errno());
 				else {
 					$sql = 'SELECT COUNT(*) FROM files WHERE file = ?;';
@@ -43,7 +43,7 @@
 		public function increment() {
 			$ret = 0;
 			if(isset($this->file)){
-				$mysqli = @new mysqli("localhost","root","root","downloads");
+				$mysqli = @new mysqli("localhost","christi3_cfdown","cfdown","christi3_cf-downloads");
 				if(mysqli_connect_errno());
 				else {
 					$sql = "UPDATE files SET downloads = downloads + 1 WHERE file = ?;";
@@ -63,7 +63,7 @@
 		public function add() {
 			$ret = 0;
 			if(isset($this->file)) {
-				$mysqli = @new mysqli("localhost","root","root","downloads");
+				$mysqli = @new mysqli("localhost","christi3_cfdown","cfdown","christi3_cf-downloads");
 				if(mysqli_connect_errno());
 				else {
 					$sql = "INSERT INTO files(file) VALUES(?)";
@@ -83,7 +83,7 @@
 		public function getCount() {
 			$ret = 0;
 			if(isset($this->file)) {
-				$mysqli = @new mysqli("localhost","root","root","downloads");
+				$mysqli = @new mysqli("localhost","christi3_cfdown","cfdown","christi3_cf-downloads");
 				if(mysqli_connect_errno());
 				else {
 					$sql = 'SELECT downloads FROM files WHERE file = ?;';
