@@ -12,4 +12,3 @@ Plus it's just cool to have an own download centre, right?!
 - keep track of how many times a file has been downloaded
 - let your users download a file on a page with advertisements
 - dynamically add new files fully automated to the database
-- 
