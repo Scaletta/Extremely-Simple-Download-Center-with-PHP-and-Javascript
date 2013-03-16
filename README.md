@@ -11,7 +11,5 @@ Plus it's just cool to have an own download centre, right?!
 #FEATURES#
 - keep track of how many times a file has been downloaded
 - let your users download a file on a page with advertisements
-- keep track of how many times a file has been downloaded
-- let your users download a file on a page with advertisements
-
-fd
+- dynamically add new files fully automated to the database
+- 
