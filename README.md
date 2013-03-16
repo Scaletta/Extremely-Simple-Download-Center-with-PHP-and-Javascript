@@ -32,4 +32,6 @@ To set up this simple download centre, follow these instructions to make it work
 	) ENGINE=MyISAM DEFAULT CHARSET=latin1;
     ````
 
-4. Now that the database is set up, change your host,username and password in the *DownloadCenter.php*
+4. Now that the database is set up, change your host,username and password in *DownloadCenter.php* in the mysqli object
+
+5. Now it's time to open your file that resembles the Download center (e.g. the *index.php* in the directory *download/*)
