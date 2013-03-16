@@ -43,7 +43,6 @@ To set up this simple download centre, follow these instructions to make it work
 
 7. After that add this script that works as a timer
     ````javascript
-	<script type="text/javascript">
 	var count=3;
 
 	var counter=setInterval(timer, 1000); //1000 will run it every 1 second
@@ -61,5 +60,4 @@ To set up this simple download centre, follow these instructions to make it work
 		document.getElementById("timer").innerHTML = count;
 
 	}
-	</script>
-   ````
+    ````
