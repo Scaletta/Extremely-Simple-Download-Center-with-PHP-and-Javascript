@@ -1,4 +1,4 @@
-Extremely-Simple-Download-Center-with-PHP-and-Javascript
+Extremely Simple Download Center with PHP and Javascript
 =========================================================
 
 #About#
@@ -31,3 +31,5 @@ To set up this simple download centre, follow these instructions to make it work
   		downloads int(11) NOT NULL default '0'
 	) ENGINE=MyISAM DEFAULT CHARSET=latin1;
     ````
+
+4. Now that the database is set up, change your host,username and password in the *DownloadCenter.php*

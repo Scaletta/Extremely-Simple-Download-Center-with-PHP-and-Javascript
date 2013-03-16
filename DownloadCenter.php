@@ -1,6 +1,6 @@
 <?php
 	
-	class DownloadCounter{
+	class DownloadCenter{
 
 		private $file = null;
 

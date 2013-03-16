@@ -54,8 +54,8 @@
 
 			<?php 
 
-			require_once('DownloadCounter.php');
-			$dc = new DownloadCounter($file);
+			require_once('DownloadCenter.php');
+			$dc = new DownloadCenter($file);
 			if($dc->exists()) {
 				$dc->increment();
 			}
