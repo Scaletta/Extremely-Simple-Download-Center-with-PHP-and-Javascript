@@ -6,13 +6,13 @@ Download Center is very helpful when you want to keep of how many times a file h
 
 You can also let the user wait some seconds and display an ad, to make both money and restrict your monthly bandwidth usage.
 
-Plus it's just cool to have an own download centre, right?!
+Plus it's just cool to have an own download center, right?!
 
 #EXAMPLE#
 An example can be found here: [Download center](http://christian-fei.com/lab/download-center/)
 
 #WORDPRESS INTEGRATION#
-If you want to add a download centre to your wordpress blog, follow this step by step tutorial
+If you want to add a download center to your wordpress blog, follow this step by step tutorial
 [Create a simple and neat download page for wordpress](http://christian-fei.com/tutorials/create-a-simple-neat-download-page-for-wordpress-javascript/)
 
 #FEATURES#
@@ -22,7 +22,7 @@ If you want to add a download centre to your wordpress blog, follow this step by
 - extremely lightweight and fast
 
 #SETUP#
-To set up this simple download centre, follow these instructions to make it work:
+To set up this simple download center, follow these instructions to make it work:
 
 1. Create a directory where you store all your files that are available for download (e.g. 'downloadfiles')
 
