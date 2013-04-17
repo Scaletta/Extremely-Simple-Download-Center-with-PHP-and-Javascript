@@ -9,7 +9,7 @@ You can also let the user wait some seconds and display an ad, to make both mone
 Plus it's just cool to have an own download center, right?!
 
 #EXAMPLE#
-An example can be found here: [Download center](http://christian-fei.com/lab/download-center/)
+An example can be found here: [Download center](http://lab.christian-fei.com/download-center/)
 
 #WORDPRESS INTEGRATION#
 If you want to add a download center to your wordpress blog, follow this step by step tutorial
