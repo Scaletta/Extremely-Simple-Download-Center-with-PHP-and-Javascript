@@ -1,4 +1,4 @@
-Extremely Simple Download Center with PHP and Javascript
+Extremely Simple Download Center with PHP and Javascript & Design
 =========================================================
 
 #About#
@@ -10,6 +10,8 @@ Plus it's just cool to have an own download center, right?!
 
 #EXAMPLE#
 An example can be found here: [Download center](http://lab.christian-fei.com/download-center/)
+
+[Design] (http://projects.gtnomikos.com/xsdc/test/home/)
 
 #WORDPRESS INTEGRATION#
 If you want to add a download center to your wordpress blog, follow this step by step tutorial
